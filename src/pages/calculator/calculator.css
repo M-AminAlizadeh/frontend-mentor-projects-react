@@ -1,3 +1,53 @@
+:root {
+	/**** Theme1 ****/
+	/* background */
+	--calculator-t1-bg-main: hsl(222, 26%, 31%);
+	--calculator-t1-bg-toggle-keypad: hsl(223, 31%, 20%);
+	--calculator-t1-bg-screen: hsl(224, 36%, 15%);
+	/* keys */
+	--calculator-t1-key-bg: hsl(225, 21%, 49%);
+	--calculator-t1-key-shadow: hsl(224, 28%, 35%);
+	--calculator-t1-key-bg-1: hsl(6, 63%, 50%);
+	--calculator-t1-key-bg-2: hsl(30, 25%, 89%);
+	--calculator-t1-key-shadow-1: hsl(6, 70%, 34%);
+	--calculator-t1-key-shadow-2: hsl(28, 16%, 65%);
+	/* text */
+	--calculator-t1-text-color-1: hsl(221, 14%, 31%);
+	--calculator-t1-text-color-2: hsl(0, 0, 100%);
+
+	/**** Theme2 ****/
+	/* background */
+	--calculator-t2-bg-main: hsl(0, 0%, 90%);
+	--calculator-t2-bg-toggle-keypad: hsl(0, 5%, 81%);
+	--calculator-t2-bg-screen: hsl(0, 0%, 93%);
+	/* keys */
+	--calculator-t2-key-bg: hsl(185, 42%, 37%);
+	--calculator-t2-key-shadow: hsl(185, 58%, 25%);
+	--calculator-t2-key-bg-1: hsl(25, 98%, 40%);
+	--calculator-t2-key-bg-2: hsl(25, 99%, 27%);
+	--calculator-t2-key-shadow-1: hsl(45, 7%, 89%);
+	--calculator-t2-key-shadow-2: hsl(35, 11%, 61%);
+	/* text */
+	--calculator-t2-text-color-1: hsl(60, 10%, 19%);
+	--calculator-t2-text-color-2: hsl(0, 0, 100%);
+
+	/**** Theme3 ****/
+	/* background */
+	--calculator-t3-bg-main: hsl(268, 75%, 9%);
+	--calculator-t3-bg-toggle-keypad-screen: hsl(268, 71%, 12%);
+	/* keys */
+	--calculator-t3-key-bg: hsl(281, 89%, 26%);
+	--calculator-t3-key-shadow: hsl(285, 91%, 52%);
+	--calculator-t3-key-bg-1: hsl(176, 100%, 44%);
+	--calculator-t3-key-bg-2: hsl(268, 47%, 21%);
+	--calculator-t3-key-shadow-1: hsl(177, 92%, 70%) s;
+	--calculator-t3-key-shadow-2: hsl(290, 70%, 36%);
+	/* text */
+	--calculator-t3-text-color-1: hsl(52, 100%, 62%);
+	--calculator-t3-text-color-2: hsl(0, 0, 100%);
+	--calculator-t3-text-color-3: hsl(198, 20%, 13%);
+}
+
 .calculator-container {
 	border: 2px solid orange;
 	width: 100%;
